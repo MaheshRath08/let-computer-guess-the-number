@@ -1,5 +1,12 @@
 import random
 
+print("-------Welcome to this game------")
+print("----First guess a number between 1 to 1000----")
+print("----Run the program and computer will try to guess it----")
+print("----if computer's guess is lower, type L----")
+print("----if computer's guess is higher, type H----")
+print("----if computer's guess is correct, type C----")
+
 def guessIt(x):
     low = 1
     high = x
@@ -18,4 +25,8 @@ def guessIt(x):
     print(f"YaY!!!! Computer has successfully guessed the number, {guess}.....")
     print("-----------------------------------------------------------------")       
 
-guessIt(100)
+askEm = input("Are you ready? (y/n):\n").lower()
+if askEm != "y":
+    quit()
+else:
+    guessIt(100)
