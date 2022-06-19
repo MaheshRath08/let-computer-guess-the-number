@@ -29,4 +29,7 @@ askEm = input("Are you ready? (y/n):\n").lower()
 if askEm != "y":
     quit()
 else:
-    guessIt(100)
+    try:
+        guessIt(1000)
+    except ValueError:
+        print("Something went wrong!!!!!")
