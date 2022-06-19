@@ -1,7 +1,7 @@
 import random
 #Guide the user
 print("-------Welcome to this game------")
-print("----First guess a number between 1 to 1000----")
+print("----First choose a number between 1 to 1000 in your brain----")
 print("----Run the program and computer will try to guess it----")
 print("----if computer's guess is lower, type L----")
 print("----if computer's guess is higher, type H----")
